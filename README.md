@@ -1,4 +1,4 @@
-# 🎨 Galeria de Arte Interativa — Programador Front-End
+# 🎨 Galeria de Arte Interativa — Desenvolvedor Front-End
 
 > **Projeto Integrador** desenvolvido para a disciplina de **Front-End** do curso de Programador Front-End.
 
