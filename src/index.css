@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+.navbar {
+  background-color: #090d16 !important;
+}
+
+header {
+  background-color: #1e293b !important;
+}
+
+h2.text-warning, .navbar-brand.text-warning {
+  color: #facc15 !important;
+}
+
+.nav-link {
+  color: #cbd5e1 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #38bdf8 !important; 
+}
+
+.card {
+  position: relative;
+  background-color: #1e293b !important;
+  border: 1px solid #334155 !important;
+}
+
+.card .card-title {
+  color: #f8fafc !important;
+}
+
+.card .card-text {
+  color: #94a3b8 !important; 
+}
+
+.border-secondary {
+  border-color: #334155 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 70px;
+  padding: 40px 0;
+}
+
+.card-img-top {
+  height: 260px;
+  object-fit: cover;
+  transition: transform 0.2s ease-in-out; 
+  display: block;
+  width: 100%;
+  cursor: pointer; 
+}
+
+.card-img-top:hover {
+  transform: scale(1.02);
+}
+
+.custom-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-modal-img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
