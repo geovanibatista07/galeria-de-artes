@@ -1,19 +1,54 @@
-# React + Vite
+# 🎨 Galeria de Arte Interativa — Programador Front-End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Projeto Integrador** desenvolvido para a disciplina de **Front-End** do curso de Programador Front-End.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Informações da Entrega
+* **Aluno:** Geovani Batista
+* **Professor:** Matheus Marques 
+* **Turma:** QUA024920260076
+* **Link do Site Publicado:** [https://galeria-de-artes-beta.vercel.app](https://galeria-de-artes-beta.vercel.app)
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 📄 Descrição do Projeto
+A **Galeria de Arte Interativa** é uma *Single Page Application* (SPA) responsiva e intuitiva voltada para a exibição, consulta e preservação cultural de obras de arte consagradas e seus respectivos artistas (como Candido Portinari, Frida Kahlo, Vincent van Gogh e Leonardo da Vinci). 
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+O projeto combina uma arquitetura modular com foco em acessibilidade, usabilidade e engajamento cultural.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologias Utilizadas
+* **HTML5 Semântico:** Estruturação acessível com uso de `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` e `<dialog>`.
+* **CSS3 & Bootstrap 5:** Estilização com tema escuro (*Dark Mode*), layout responsivo utilizando sistema de grid e componentes reutilizáveis.
+* **JavaScript (ES6+):** Processamento dinâmico de dados com manipulação de arrays (`.filter()`, `.map()`, `Set()`).
+* **React + Vite:** Ecossistema de desenvolvimento rápido com componentes reutilizáveis e *Hot Module Replacement* (HMR).
+* **Hooks do React:**
+  * `useState`: Controle de estados da aplicação (busca, filtros, modal e favoritos).
+  * `useEffect`: Sincronização e persistência de dados.
+* **LocalStorage:** Persistência de obras favoritadas no navegador do usuário.
+
+---
+
+## ✨ Funcionalidades Interativas
+1. **Busca por Texto em Tempo Real:** Filtragem instantânea por título da obra ou nome do artista.
+2. **Filtros Combinados Dinâmicos:**
+   * **Por Museu / Localização:** Seleção por instituição cultural onde a obra está exposta.
+   * **Por Época / Século:** Filtragem cronológica baseada no período histórico da obra.
+3. **Sistema de Favoritos com Persistência:** Opção de favoritar obras com salvamento automático no `localStorage`.
+4. **Modal de Biografia do Artista (`ArtistModal`):** Exibição de contexto histórico e biografia detalhada do artista.
+5. **Modal de Ampliação de Imagem (`ImageModal`):** Visualização em alta resolução da obra selecionada.
+6. **Geolocalização Integrada:** Links diretos com redirecionamento seguro para as coordenadas dos museus no Google Maps.
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+### Pré-requisitos
+* Node.js instalado na máquina (versão 18 ou superior).
+
+### Passo a Passo
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/geovanibatista07/galeria-de-artes.git](https://github.com/geovanibatista07/galeria-de-artes.git)
